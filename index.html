@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <title>jeu pierre </title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_content">
+            <h2 class="header_title">Bienvenue au jeu de Pierre-Papier-ciseaux</h2>
+            <p>Pierre-Papier-ciseaux est un jeu effectué avec les mains et opposant un ou plusieurs joueurs </p>
+        </div>
+    </header>
+
+
+    <main class="game">
+        <div class="container">
+            <div class="user_game">
+                <div class="computer_game">
+                    <h2>Computer</h2>
+                </div>
+                <div class="score_game">
+                    <span class="computer_score">0</span>
+                    <span>:</span>
+                    <span class="player_score">0</span>
+                </div>
+                <div class="computer_game">
+                        <h2>Player</h2>
+                </div>
+            </div>
+            <div class="resul">
+                <h3 style="text-align: center; color: #fff;"></h3>
+            </div>
+            <div class="play">
+                <div class="play_computer">
+                    <div class="play_value computer">
+                        <div class="images computer-images">
+                            <img src="assets/pierre.png" class="computer_hand" alt="">
+                        </div>
+                        <span class="value_computer">pierre</span>
+                    </div>
+                </div>
+                <div class="play_player">
+                    <div class="play_value player">
+                        <div class="images player-images">
+                            <img src="assets/pierre.png" alt="">
+                        </div>
+                        <span class="value_player">pierre</span>
+                    </div>
+                    <div class="player_options">
+                        <div class="play_value">
+                            <button class="btn">pierre</button>
+                            <button class="btn">papier</button>
+                            <button class="btn">ciseaux</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
