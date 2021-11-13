@@ -8,7 +8,6 @@ C'est l'un des jeux qui met en pratique la manipulation du DOM en Javascript
 
 
 Bingo you can change the resources as you like.
-![clone-whatsApp-web](https://user-images.githubusercontent.com/67246148/117751656-039af680-b205-11eb-934e-3fdf0ac28329.png)
-
+![Screenshot 2021-11-13 at 00-21-22 jeu pierre](https://user-images.githubusercontent.com/67246148/141597892-01ef662e-f188-445a-9622-4ce3b567032a.png)
 
 
